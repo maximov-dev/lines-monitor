@@ -1,0 +1,29 @@
+<div class="relative w-full">
+  <ul class="p-4">
+    <li class="pt-4">
+      <button
+        routerLink="/projects"
+        icon="menu"
+        tuiButton
+        type="button"
+        appearance="outline"
+        class="w-full"
+      >
+        Проекты
+      </button>
+    </li>
+    <li class="pt-4">
+      <button
+        (click)="signOut()"
+        icon="menu"
+        tuiButton
+        type="button"
+        appearance="outline"
+        class="w-full"
+      >
+        Выйти
+      </button>
+    </li>
+  </ul>
+  <ng-content></ng-content>
+</div>

@@ -1,0 +1,10 @@
+<header class="border-px border-b border-gray bg-white h-16 w-full flex px-4">
+  <div (click)="menuToggle.emit()" class="flex items-center cursor-pointer">
+    <tui-icon icon="menu" />
+  </div>
+  <img
+    [routerLink]="['/']"
+    class="cursor-pointer"
+    src="assets/vendor/logo.svg"
+  />
+</header>

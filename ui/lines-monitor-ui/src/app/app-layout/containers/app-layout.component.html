@@ -1,0 +1,12 @@
+<app-header (menuToggle)="toggleSideMenuState()" />
+<div class="flex h-full">
+  @if (sideMenuState) {
+  <app-sidebar class="border-px border-gray h-full w-72">
+    <app-footer class="absolute bottom-0 w-full" />
+  </app-sidebar>
+  }
+
+  <div class="grow px-4">
+    <router-outlet></router-outlet>
+  </div>
+</div>
