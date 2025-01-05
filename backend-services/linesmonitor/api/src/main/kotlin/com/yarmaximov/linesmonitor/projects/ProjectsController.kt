@@ -1,8 +1,9 @@
-package com.yarmaximov.linesmonitor.measurements
+package com.yarmaximov.linesmonitor.projects
 
-import com.yarmaximov.linesmonitor.measurements.model.Measurement
 import com.yarmaximov.linesmonitor.measurements.model.Metric
-import com.yarmaximov.linesmonitor.measurements.service.MeasurementsService
+import com.yarmaximov.linesmonitor.projects.models.Project
+import com.yarmaximov.linesmonitor.projects.service.ProjectsService
+import jakarta.validation.Valid
 import org.springframework.web.bind.annotation.PostMapping
 import org.springframework.web.bind.annotation.RequestBody
 import org.springframework.web.bind.annotation.RequestMapping
@@ -11,11 +12,11 @@ import java.time.Instant
 import java.util.*
 
 @RestController
-@RequestMapping("/api/v1/measurements")
-class MeasurementsController(val measurementsService: MeasurementsService) {
+@RequestMapping("/api/v1/projects")
+class ProjectsController(val projectsService: ProjectsService) {
 
     @PostMapping
-    fun saveMeasurement() {
-        measurementsService.save(Metric(id = UUID.randomUUID(), name = "name", unit = "cre", createdAt = Instant.now()))
+    fun createProject(@Valid @RequestBody newProject: Project) {
+        projectsService.create(newProject)
     }
 }
