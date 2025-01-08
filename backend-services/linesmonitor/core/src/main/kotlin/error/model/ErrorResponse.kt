@@ -4,6 +4,8 @@ import jakarta.validation.ConstraintViolation
 import jakarta.validation.ConstraintViolationException
 import org.springframework.validation.BindingResult
 import org.springframework.validation.FieldError
+import org.springframework.web.bind.MissingRequestValueException
+
 data class ErrorResponse(
     val errorCode: Int,
     val message: String
@@ -12,6 +14,11 @@ data class ErrorResponse(
         fun of(errorProperty: ErrorProperty) = ErrorResponse(
             errorProperty.errorCode(),
             errorProperty.message()
+        )
+
+        fun of(e: MissingRequestValueException) = ErrorResponse(
+            GlobalErrorCode.BAD_REQUEST.errorCode(),
+            "One of params is missing"
         )
         fun of(e: Exception): ErrorResponse {
             println(e)

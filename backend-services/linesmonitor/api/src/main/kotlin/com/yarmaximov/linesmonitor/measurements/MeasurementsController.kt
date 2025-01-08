@@ -16,8 +16,8 @@ class MeasurementsController(val measurementsService: MeasurementsService) {
 
     @PostMapping
     fun saveMeasurement() {
-        measurementsService.save(Measurement(
-
-        ))
+//        measurementsService.save(Measurement(
+//
+//        ))
     }
 }
