@@ -13,6 +13,12 @@ repositories {
     mavenCentral()
 }
 
+configurations {
+    all {
+        exclude("org.slf4j", "slf4j-log4j12")
+    }
+}
+
 dependencies {
     implementation("org.springframework.boot:spring-boot-starter-data-jpa")
     implementation("org.springframework.boot:spring-boot-starter-web")

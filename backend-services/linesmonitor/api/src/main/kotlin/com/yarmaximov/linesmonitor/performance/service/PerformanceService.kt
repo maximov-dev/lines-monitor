@@ -1,7 +1,6 @@
 package com.yarmaximov.linesmonitor.performance.service
 
 import com.yarmaximov.linesmonitor.performance.models.Analyze
-import com.yarmaximov.linesmonitor.performance.models.WebVitals
 import org.openqa.selenium.JavascriptExecutor
 import org.openqa.selenium.chrome.ChromeDriver
 import org.openqa.selenium.chrome.ChromeOptions
@@ -11,11 +10,15 @@ import org.springframework.stereotype.Service
 import org.springframework.web.server.ResponseStatusException
 import java.net.URI
 import java.net.URISyntaxException
+import org.apache.logging.log4j.LogManager;
+
 
 
 @Service
 class PerformanceService {
-    fun analyze(url: String): Analyze.Response {
+    val logger = LogManager.getLogger(PerformanceService::class.java)
+
+    fun analyze(body: Analyze.Request): Analyze.Response {
         val desiredCapabilities = DesiredCapabilities()
         desiredCapabilities.setCapability("pageLoadStrategy", "normal")
         val options = ChromeOptions()
@@ -29,9 +32,9 @@ class PerformanceService {
         }
 
         try {
-            URI(url)
+            URI(body.url)
 
-            driver.get(url)
+            driver.get(body.url)
 
             // Use JavaScript to fetch performance metrics
             val performanceTiming = (driver as JavascriptExecutor)
@@ -56,7 +59,7 @@ class PerformanceService {
 
 
             return Analyze.Response(
-                url = url,
+                url = body.url,
                 renderTime = renderTime,
                 domContentLoadedTime = domContentLoadedTime,
                 //webVitals = webVitals,
@@ -64,7 +67,7 @@ class PerformanceService {
         } catch (exception: URISyntaxException) {
             throw ResponseStatusException(HttpStatus.BAD_REQUEST, "Incorrect URL")
         } catch (exception: Exception) {
-            println(exception)
+            logger.error("Error when analyzing a webapp ${exception.message}")
             throw ResponseStatusException(HttpStatus.INTERNAL_SERVER_ERROR, "Something went wrong when analyzing a webpage")
         } finally {
             driver.quit()

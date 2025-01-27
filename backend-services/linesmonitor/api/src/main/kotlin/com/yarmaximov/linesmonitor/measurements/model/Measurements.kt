@@ -49,7 +49,7 @@ data class Page(
     @GeneratedValue(strategy = GenerationType.UUID)
     val id: UUID = UUID.randomUUID(),
 
-    @ManyToOne
+    @OneToOne
     @field:NotNull
     @JoinColumn(name = "projectId", referencedColumnName = "id")
     val projectId: Project,
@@ -89,15 +89,13 @@ data class Session(
 @Table(name = "metrics")
 data class Metric(
     @Id
-    val id: UUID = UUID.randomUUID(),
+    @GeneratedValue(strategy = GenerationType.UUID)
+    val id: UUID?,
 
     @field:NotNull
     val name: String = "",
 
     val unit: String = "",
-
-    @field:NotNull
-    val createdAt: Instant = Instant.now()
 )
 
 @Entity
@@ -105,22 +103,25 @@ data class Metric(
 data class Measurement(
     @Id
     @GeneratedValue(strategy = GenerationType.UUID)
-    val id: UUID = UUID.randomUUID(),
+    val id: UUID?,
 
 //    @ManyToOne
 //    @field:NotNull
 //    @JoinColumn(name = "sessionId", referencedColumnName = "id")
 //    val session: Session,
-//
+
 //    @ManyToOne
 //    @field:NotNull
 //    @JoinColumn(name = "pageId", referencedColumnName = "id")
 //    val page: Page,
-//
+
 //    @ManyToOne
 //    @field:NotNull
 //    @JoinColumn(name = "metricId", referencedColumnName = "id")
-//    val metric: Metric,
+    /**
+     * Save beforehand in DB to associate to each measurement
+     */
+    val metricId: UUID,
 
     val value: Double?,
 
