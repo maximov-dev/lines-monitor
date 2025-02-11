@@ -11,10 +11,10 @@ import org.springframework.web.server.ResponseStatusException
 @Service
 class MeasurementsService(val measurementsRepository: MeasurementsRepository, val metricsRepository: MetricsRepository) {
     fun save(measurement: Measurement) {
-         metricsRepository.findByIdOrNull(measurement.metricId)
-            ?: throw ResponseStatusException(HttpStatus.BAD_REQUEST, "Metric ID is incorrect")
-
-
-        measurementsRepository.save(measurement)
+//         metricsRepository.findByIdOrNull(measurement.metricId)
+//            ?: throw ResponseStatusException(HttpStatus.BAD_REQUEST, "Metric ID is incorrect")
+//
+//
+//        measurementsRepository.save(measurement)
     }
 }

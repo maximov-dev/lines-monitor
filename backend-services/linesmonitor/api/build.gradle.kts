@@ -1,13 +1,15 @@
 plugins {
-    id("kotlin")
+    kotlin("jvm") version "1.9.25"
     kotlin("plugin.spring") version "1.9.25"
     id("org.springframework.boot") version "3.4.1"
     id("io.spring.dependency-management") version "1.1.7"
     kotlin("plugin.jpa") version "1.9.25"
+    id("com.gradleup.shadow") version "8.3.5"
 }
 
 group = "com.yarmaximov"
 version = "1.0.0"
+group = "com.yarmaximov"
 
 repositories {
     mavenCentral()
@@ -25,8 +27,9 @@ dependencies {
     implementation("com.fasterxml.jackson.module:jackson-module-kotlin")
     implementation("org.jetbrains.kotlin:kotlin-reflect")
     implementation("org.springframework.boot:spring-boot-starter-validation")
-    implementation(project(mapOf("path" to ":core")))
+    implementation(project(":core"))
     implementation("org.seleniumhq.selenium:selenium-java:4.27.0")
+    implementation("org.springframework.boot:spring-boot-starter-data-mongodb")
     runtimeOnly("org.postgresql:postgresql")
     testImplementation("org.springframework.boot:spring-boot-starter-test")
     testImplementation("org.jetbrains.kotlin:kotlin-test-junit5")
