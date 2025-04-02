@@ -304,6 +304,51 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="4B4-suLJelRxn-djwQE1-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="4B4-suLJelRxn-djwQE1-1" target="4B4-suLJelRxn-djwQE1-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4B4-suLJelRxn-djwQE1-1" value="Клиент" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4B4-suLJelRxn-djwQE1-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="4B4-suLJelRxn-djwQE1-2" target="4B4-suLJelRxn-djwQE1-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4B4-suLJelRxn-djwQE1-2" value="Сервер" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4B4-suLJelRxn-djwQE1-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="4B4-suLJelRxn-djwQE1-3" target="4B4-suLJelRxn-djwQE1-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4B4-suLJelRxn-djwQE1-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="4B4-suLJelRxn-djwQE1-3" target="4B4-suLJelRxn-djwQE1-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4B4-suLJelRxn-djwQE1-3" value="Сеть" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="280" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4B4-suLJelRxn-djwQE1-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="4B4-suLJelRxn-djwQE1-2" target="4B4-suLJelRxn-djwQE1-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4B4-suLJelRxn-djwQE1-12" value="Генерация ответа" style="text;whiteSpace=wrap;align=center;" vertex="1" parent="1">
+          <mxGeometry x="660" y="370" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4B4-suLJelRxn-djwQE1-13" value="Запрос получен сервером" style="text;whiteSpace=wrap;align=center;" vertex="1" parent="1">
+          <mxGeometry x="540" y="200" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4B4-suLJelRxn-djwQE1-14" value="Ответ на зпрос" style="text;whiteSpace=wrap;align=center;" vertex="1" parent="1">
+          <mxGeometry x="535" y="360" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4B4-suLJelRxn-djwQE1-15" value="Передача&#xa;ответа&#xa;на запрос" style="text;whiteSpace=wrap;align=center;" vertex="1" parent="1">
+          <mxGeometry x="410" y="360" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4B4-suLJelRxn-djwQE1-16" value="Ответ получен" style="text;whiteSpace=wrap;align=center;" vertex="1" parent="1">
+          <mxGeometry x="250" y="360" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4B4-suLJelRxn-djwQE1-17" value="Запрос передается по сети" style="text;whiteSpace=wrap;align=center;" vertex="1" parent="1">
+          <mxGeometry x="405" y="200" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4B4-suLJelRxn-djwQE1-18" value="Запрос веб-страницы" style="text;whiteSpace=wrap;align=center;" vertex="1" parent="1">
+          <mxGeometry x="250" y="200" width="110" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
