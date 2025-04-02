@@ -2,9 +2,7 @@ package com.yarmaximov.linesmonitor.performance.service
 
 import com.yarmaximov.linesmonitor.measurements.model.CoreWebVitalsPayload
 import com.yarmaximov.linesmonitor.performance.models.Analyze
-import org.openqa.selenium.JavascriptExecutor
 import org.openqa.selenium.chrome.ChromeOptions
-import org.openqa.selenium.remote.DesiredCapabilities
 import org.springframework.http.HttpStatus
 import org.springframework.stereotype.Service
 import org.springframework.web.server.ResponseStatusException
@@ -23,7 +21,7 @@ class PerformanceService {
 
     fun analyze(body: Analyze.Request): Analyze.Response<CoreWebVitalsPayload> {
         val options = ChromeOptions()
-        options.addArguments("--headless")  // Run without UI
+        options.addArguments("--headless")
         options.addArguments("--disable-gpu")
         options.addArguments("--enable-logging")
 
@@ -50,16 +48,6 @@ class PerformanceService {
                     "CumulativeLayoutShift" -> webVitals["cumulativeLayoutShift"] = metric.value as Long
                 }
             }
-
-
-//            val webVitalsScriptResult = (driver as JavascriptExecutor).executeScript(webVitalsScript) as Map<*, *>
-//
-//            val webVitals = WebVitals(
-//                cumulativeLayoutShift = webVitalsScriptResult["cls"] as Double,
-//                largestContentfulPaint = webVitalsScriptResult["lcp"] as Double,
-//                firstInputDelay = webVitalsScriptResult["fid"] as Double,
-//                timeToFirstByte = webVitalsScriptResult["ttfb"] as Double,
-//            )
 
 
             return Analyze.Response(
