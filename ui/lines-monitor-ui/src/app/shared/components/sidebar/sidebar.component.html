@@ -6,10 +6,26 @@
         icon="menu"
         tuiButton
         type="button"
-        appearance="outline"
-        class="w-full"
+        appearance="flat"
+        class="w-full justify-start"
+        size="m"
+        iconStart="@tui.settings"
       >
-        Проекты
+        <span class="font-normal">Проекты</span>
+      </button>
+    </li>
+    <li class="pt-4">
+      <button
+        routerLink="/projects"
+        icon="menu"
+        tuiButton
+        type="button"
+        appearance="flat"
+        class="w-full justify-start"
+        size="m"
+        iconStart="@tui.settings"
+      >
+        <span class="font-normal">Настройки</span>
       </button>
     </li>
     <li class="pt-4">
@@ -18,10 +34,12 @@
         icon="menu"
         tuiButton
         type="button"
-        appearance="outline"
-        class="w-full"
+        appearance="flat"
+        class="w-full justify-start"
+        size="m"
+        iconStart="@tui.log-out"
       >
-        Выйти
+        <span class="font-normal"> Выйти </span>
       </button>
     </li>
   </ul>
