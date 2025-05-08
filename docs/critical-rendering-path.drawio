@@ -1,0 +1,116 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0" version="26.2.13">
+  <diagram name="Page-1" id="TL7QWQXT2suGDpsUTbwd">
+    <mxGraphModel dx="1994" dy="777" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="G2inT_Zamt9dh5uO65or-7" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="220" width="240" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="G2inT_Zamt9dh5uO65or-8" value="&amp;lt;html&amp;gt;&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&amp;lt;body&amp;gt;&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt; &lt;/span&gt;&amp;nbsp;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt; &lt;/span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&amp;nbsp;&amp;nbsp;&amp;lt;p id=&quot;u-text&quot;&amp;gt;Простой текст&amp;lt;/p&amp;gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt; &lt;/span&gt;&amp;nbsp;&amp;lt;link rel stylesheet href=&quot;style.css&quot;&amp;gt;&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt; &lt;/span&gt;&amp;nbsp; &amp;nbsp;&amp;lt;script src=&quot;script.js&quot;&amp;gt;&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&amp;lt;/body&amp;gt;&lt;br&gt;&amp;lt;/html&amp;gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-120" y="180" width="430" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="G2inT_Zamt9dh5uO65or-9" value="index.html" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="190" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="G2inT_Zamt9dh5uO65or-10" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="320" y="170" width="150" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="G2inT_Zamt9dh5uO65or-11" value="style.css" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="320" y="140" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="G2inT_Zamt9dh5uO65or-12" value="#u-text {&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;color: #0083FF;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&amp;nbsp;&lt;/span&gt;&amp;nbsp; &amp;nbsp; &lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/span&gt;font-size: 16px;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;}&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="220" y="170" width="260" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="G2inT_Zamt9dh5uO65or-13" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="320" y="290" width="350" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="G2inT_Zamt9dh5uO65or-14" value="script.js" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="320" y="260" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="G2inT_Zamt9dh5uO65or-15" value="document.getElementById(&quot;#u-text&quot;).style.fontSize = &quot;25px&quot;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="330" y="320" width="330" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="G2inT_Zamt9dh5uO65or-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="G2inT_Zamt9dh5uO65or-18" target="G2inT_Zamt9dh5uO65or-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G2inT_Zamt9dh5uO65or-18" value="Загрузка&lt;div&gt;index.html&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="56" y="458" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="G2inT_Zamt9dh5uO65or-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="G2inT_Zamt9dh5uO65or-19" target="G2inT_Zamt9dh5uO65or-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G2inT_Zamt9dh5uO65or-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="276" y="485" as="sourcePoint" />
+            <mxPoint x="356" y="645" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="286" y="485" />
+              <mxPoint x="286" y="645" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G2inT_Zamt9dh5uO65or-19" value="Парсинг&lt;br&gt;&lt;div&gt;index.html&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="176" y="458" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="G2inT_Zamt9dh5uO65or-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="G2inT_Zamt9dh5uO65or-20" target="G2inT_Zamt9dh5uO65or-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G2inT_Zamt9dh5uO65or-20" value="Загрузка&lt;div&gt;style.css&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="316" y="535" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="G2inT_Zamt9dh5uO65or-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="G2inT_Zamt9dh5uO65or-21" target="G2inT_Zamt9dh5uO65or-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G2inT_Zamt9dh5uO65or-21" value="Парсинг&lt;br&gt;&lt;div&gt;style.css&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="426" y="535" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="G2inT_Zamt9dh5uO65or-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="G2inT_Zamt9dh5uO65or-22" target="G2inT_Zamt9dh5uO65or-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G2inT_Zamt9dh5uO65or-22" value="Загрузка&lt;div&gt;script.js&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="356" y="630" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="G2inT_Zamt9dh5uO65or-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="G2inT_Zamt9dh5uO65or-23" target="G2inT_Zamt9dh5uO65or-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G2inT_Zamt9dh5uO65or-23" value="Интепретация и выполнение&lt;br&gt;&lt;div&gt;script.js&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="466" y="630" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="G2inT_Zamt9dh5uO65or-31" value="Парсинг&lt;br&gt;&lt;div&gt;index.html&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="576" y="458" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="G2inT_Zamt9dh5uO65or-34" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="56" y="440" as="sourcePoint" />
+            <mxPoint x="680" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G2inT_Zamt9dh5uO65or-35" value="&lt;b&gt;Время&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="56" y="400" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="G2inT_Zamt9dh5uO65or-36" value="&lt;b&gt;HTML&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry y="473" width="56" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="G2inT_Zamt9dh5uO65or-38" value="&lt;b&gt;CSS&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry y="550" width="56" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="G2inT_Zamt9dh5uO65or-39" value="&lt;b&gt;JS&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry y="645" width="56" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="G2inT_Zamt9dh5uO65or-43" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="56" y="528" as="sourcePoint" />
+            <mxPoint x="678" y="528" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G2inT_Zamt9dh5uO65or-44" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="60" y="604" as="sourcePoint" />
+            <mxPoint x="682" y="604" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
